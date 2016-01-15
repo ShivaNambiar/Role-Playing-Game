@@ -27,6 +27,11 @@ class Player: Character
         {
             return _inventory
         }
+        
+    }
+    func addItemtoInventory(item:String)
+    {
+        _inventory.append(item)
     }
     
     convenience init(name:String, hp:Int,attackPwr:Int)
