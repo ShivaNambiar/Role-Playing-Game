@@ -12,6 +12,11 @@
 		4CFC841D1C48041600F9C5A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CFC841B1C48041600F9C5A4 /* Main.storyboard */; };
 		4CFC841F1C48041600F9C5A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CFC841E1C48041600F9C5A4 /* Assets.xcassets */; };
 		4CFC84221C48041600F9C5A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CFC84201C48041600F9C5A4 /* LaunchScreen.storyboard */; };
+		4CFC842A1C48043800F9C5A4 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFC84291C48043800F9C5A4 /* Character.swift */; };
+		4CFC842C1C48065F00F9C5A4 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFC842B1C48065F00F9C5A4 /* Player.swift */; };
+		4CFC842E1C4808F400F9C5A4 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFC842D1C4808F400F9C5A4 /* Enemy.swift */; };
+		4CFC84301C48170900F9C5A4 /* Kimara.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFC842F1C48170900F9C5A4 /* Kimara.swift */; };
+		4CFC84321C48199600F9C5A4 /* DevilWizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFC84311C48199600F9C5A4 /* DevilWizard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		4CFC841E1C48041600F9C5A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CFC84211C48041600F9C5A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CFC84231C48041600F9C5A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CFC84291C48043800F9C5A4 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		4CFC842B1C48065F00F9C5A4 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		4CFC842D1C4808F400F9C5A4 /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		4CFC842F1C48170900F9C5A4 /* Kimara.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kimara.swift; sourceTree = "<group>"; };
+		4CFC84311C48199600F9C5A4 /* DevilWizard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevilWizard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,11 @@
 			children = (
 				4CFC84171C48041600F9C5A4 /* AppDelegate.swift */,
 				4CFC84191C48041600F9C5A4 /* ViewController.swift */,
+				4CFC84291C48043800F9C5A4 /* Character.swift */,
+				4CFC842B1C48065F00F9C5A4 /* Player.swift */,
+				4CFC842D1C4808F400F9C5A4 /* Enemy.swift */,
+				4CFC842F1C48170900F9C5A4 /* Kimara.swift */,
+				4CFC84311C48199600F9C5A4 /* DevilWizard.swift */,
 				4CFC841B1C48041600F9C5A4 /* Main.storyboard */,
 				4CFC841E1C48041600F9C5A4 /* Assets.xcassets */,
 				4CFC84201C48041600F9C5A4 /* LaunchScreen.storyboard */,
@@ -135,6 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CFC842C1C48065F00F9C5A4 /* Player.swift in Sources */,
+				4CFC842E1C4808F400F9C5A4 /* Enemy.swift in Sources */,
+				4CFC84321C48199600F9C5A4 /* DevilWizard.swift in Sources */,
+				4CFC84301C48170900F9C5A4 /* Kimara.swift in Sources */,
+				4CFC842A1C48043800F9C5A4 /* Character.swift in Sources */,
 				4CFC841A1C48041600F9C5A4 /* ViewController.swift in Sources */,
 				4CFC84181C48041600F9C5A4 /* AppDelegate.swift in Sources */,
 			);
@@ -286,6 +306,7 @@
 				4CFC84281C48041600F9C5A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
